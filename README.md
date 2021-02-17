@@ -1,41 +1,24 @@
-<!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Update the title for attiny817-getting-started-with-tcd-studio here
+# Getting Started with Timer/Counter Type D (TCD) Examples (Microchip Studio)
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+  This repository contains examples of bare metal source code for Timer/Counter Type D (TCD) as described in [TB3212 - Getting Started with Timer/Counter Type D (TCD)](http://ww1.microchip.com/downloads/en/Appnotes/TB3212-Getting-Started-with-TCD-90003212A.pdf) document from Microchip. The repository contains an Atmel Studio Solution with multiple projects inside:
+
+  * [<strong>Generating complementary driving signals:</strong>](Generating_complementary_driving_signals) This use case shows how to configure the TCD to generate two complementary driving signals of 50 kHz frequency with 100 ns dead time (for more details, see [<strong>Generating complementary driving signals</strong>](Generating_complementary_driving_signals)).
+  * [<strong>Controlling synchronous signals using input events:</strong>](Controlling_synchronous_signals_using_input_events) This use case shows how to configure the TCD to generate four signals with 10 kHz frequency that can be stopped when a fault signal is detected (for more details, see [<strong>Controlling synchronous signals using input events</strong>](Controlling_synchronous_signals_using_input_events)).
 
 ## Related Documentation
+More details and code examples on the ATTINY817 can be found at the following links:
+- [TB3212 - Getting Started with Timer/Counter Type D (TCD)](http://ww1.microchip.com/downloads/en/Appnotes/TB3212-Getting-Started-with-TCD-90003212A.pdf)
+- [ATTINY817 Product Page](https://www.microchip.com/wwwproducts/en/ATTINY817)
+- [ATTINY817 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=attiny817)
+- [ATTINY817 Project Examples in START](https://start.atmel.com/#examples/ATTINY817XplainedMini)
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
 
 ## Software Used
+- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATtiny_DFP 1.7.330 or newer Device Pack
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
 
 ## Hardware Used
-
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Operation
-
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+- ATTINY817 Xplained Mini [(attiny817-xmini)](https://www.microchip.com/developmenttools/ProductDetails/attiny817-xmini)

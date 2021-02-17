@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-getting-started-with-tcd-studio",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Timer/Counter Type D (TCD)",
         "projectName": "attiny817-getting-started-with-tcd-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository contains examples of bare metal source code for Timer/Counter Type D (TCD) as described in TB3212 - Getting Started with Timer/Counter Type D (TCD) document.",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.7.330"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,24 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny817",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            [
+                "Peripherals",
+                "TCD"
+            ]
         ],
         "peripherals": [
+            "TCD"
         ],
         "keywords": [
+            "Getting Started",
+            "Output & Signal Generation",
+            "Timing & Counting"
         ],
 		"additionalData": {
 			"longDescription": {
