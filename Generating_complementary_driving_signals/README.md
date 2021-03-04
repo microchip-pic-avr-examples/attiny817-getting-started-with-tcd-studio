@@ -6,7 +6,7 @@ This program shows how to configure the TCD to generate two complementary signal
 
 ## Related Documentation
 More details and code examples on the ATTINY817 can be found at the following links:
-- [TB3212 - Getting Started with Timer/Counter Type D (TCD)](http://ww1.microchip.com/downloads/en/Appnotes/TB3212-Getting-Started-with-TCD-90003212A.pdf)
+- [TB3212 - Getting Started with Timer/Counter Type D (TCD)](https://ww1.microchip.com/downloads/en/Appnotes/TB3212-Getting-Started-with-TCD-DS90003212.pdf)
 - [ATTINY817 Product Page](https://www.microchip.com/wwwproducts/en/ATTINY817)
 - [ATTINY817 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=attiny817)
 - [ATTINY817 Project Examples in START](https://start.atmel.com/#examples/ATTINY817XplainedMini)
@@ -38,7 +38,7 @@ The following configurations must be made for this project:
 |Pin                 | Configuration      |
 | :---------------:  | :----------------: |
 |         PA4 	     |   Digital output   |
-|         PA5	       |   Digital output   |
+|         PA5	     |   Digital output   |
 
 
  ## Operation

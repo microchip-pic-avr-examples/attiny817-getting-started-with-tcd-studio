@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-getting-started-with-tcd-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with Timer/Counter Type D (TCD)",
         "projectName": "attiny817-getting-started-with-tcd-studio",
         "shortDescription": "This repository contains examples of bare metal source code for Timer/Counter Type D (TCD) as described in TB3212 - Getting Started with Timer/Counter Type D (TCD) document.",
